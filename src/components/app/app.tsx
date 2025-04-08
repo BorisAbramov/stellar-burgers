@@ -21,7 +21,11 @@ import {
 } from '../index';
 import { useEffect } from 'react';
 import { useDispatch } from '../../services/store';
-import { fetchUser, fetchIngredients, resetOrderModalData } from '../../services/slices';
+import {
+  fetchUser,
+  fetchIngredients,
+  resetOrderModalData
+} from '../../services/slices';
 
 const App = () => {
   const dispatch = useDispatch();
